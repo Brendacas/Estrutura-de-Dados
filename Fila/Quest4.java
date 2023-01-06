@@ -1,6 +1,7 @@
-package Fila;
+
 
 import java.util.Scanner;
+
 
 public class Quest4 {
     public static void main(String[] args) {

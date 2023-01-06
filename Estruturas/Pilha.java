@@ -30,7 +30,15 @@ public class Pilha<T> implements Serializable{
 
         return node.getInfo();
     }
-
+    public T stackTop(){
+        if(getTam() == 0){
+            System.out.printf("Erro, pilha esta vazia!!!\n\n");
+            System.exit(-1);
+        }
+        T temp = pop();
+        setRearList(temp);
+        return temp;
+    }
     // Imprimindo a pilha interia
     public String imprimePilha(){
         return pilha.imprimeList();

@@ -1,6 +1,6 @@
 public class Pessoa {
-    private String nome;
     private int matricula;
+    private String nome;
     private float nota;
 
     //construtor
@@ -20,6 +20,17 @@ public class Pessoa {
     public float getNota(){
         return nota;
     }
+    public void setNome(String name){
+        nome = name;
+    }
+    public void setMatricula(int m){
+        matricula = m;
+    }
+
+    public void setNota(float n){
+        nota = n;
+    }
+
 
 
 

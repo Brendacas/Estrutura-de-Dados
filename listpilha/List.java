@@ -1,4 +1,4 @@
-
+package Estruturas;
 
 import java.io.Serializable;
 
