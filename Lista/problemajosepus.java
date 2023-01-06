@@ -5,7 +5,7 @@ class Node {
   Node prox;
 }
 
-class Main {
+public class problemajosepus {
   // Function to solve the Josephus problem
   public static int josephus(int n, int k) {
     // cria a lista circular
